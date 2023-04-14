@@ -15,14 +15,20 @@
 
 const liItemEl = document.querySelectorAll('.item');
 
-const liEl = liItemEl[1];
-
 console.log(liItemEl);
+
+const liEl = document.querySelectorAll('.item ul li');
+
+
 
 console.log(liEl);
 
-liItemEl.forEach(function (item, index) {
-    console.log(`Індекс ${index}, значення ${item}`);
+
+
+
+
+// liItemEl.forEach(function (item, index) {
+//     console.log(`Індекс ${index}, значення ${item}`);
 
     
-  });
+//   });
