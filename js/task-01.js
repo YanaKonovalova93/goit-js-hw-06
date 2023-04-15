@@ -13,22 +13,3 @@
 // 2. потом перебрать лишки вложенные в ул(потомки)
 // 3. потом в кол-бэке приплюсовать их друг к другу
 
-const liItemEl = document.querySelectorAll('.item');
-
-console.log(liItemEl);
-
-const liEl = document.querySelectorAll('.item ul li');
-
-
-
-console.log(liEl);
-
-
-
-
-
-// liItemEl.forEach(function (item, index) {
-//     console.log(`Індекс ${index}, значення ${item}`);
-
-    
-//   });
