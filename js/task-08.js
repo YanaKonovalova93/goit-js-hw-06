@@ -14,9 +14,9 @@ function handleSubmit(event) {
 
   const emailEl = { email: email.value };
 
-  const passwordlEl = { password: password.value };
+  const passwordEl = { password: password.value };
 
-  const formObj = { ...emailEl, ...passwordlEl };
+  const formObj = { ...emailEl, ...passwordEl };
 
   console.log(formObj);
 

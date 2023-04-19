@@ -5,5 +5,5 @@ inputEl.addEventListener("input", onTextInput);
 
 function onTextInput(event) {
   spanEl.textContent =
-    inputEl.value === "" ? "Anonymous" : event.currentTarget.value;
+    inputEl.value.trim() === "" ? "Anonymous" : event.currentTarget.value;
 }

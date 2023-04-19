@@ -8,13 +8,11 @@ let counterValue = 0;
 
 const onDecrementValue = () => {
   counterValue -= 1;
-  console.log(counterValue);
   valueEl.textContent = counterValue;
 };
 
 const onIncrementValue = () => {
   counterValue += 1;
-  console.log(counterValue);
   valueEl.textContent = counterValue;
 };
 
